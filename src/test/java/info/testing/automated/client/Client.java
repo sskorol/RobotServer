@@ -61,7 +61,7 @@ public class Client {
     }
 
     public static void main(final String[] args) {
-        final Client client = new Client("172.28.156.69", 4041);
+        final Client client = new Client("127.0.0.1", 4041);
         final List<Element> elements = new ArrayList<Element>(Arrays.asList(
                 new RobotElement(30, 40, 5, 10),
                 new RobotElement(50, 60, 15, 20)));
